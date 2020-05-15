@@ -48,8 +48,8 @@ a {
 }
 
 .btn-outline-primary {
-  border-color: $primary-color !important;
-  color: $primary-color !important;
+  border-color: $primary-color;
+  color: $primary-color;
 
   &:hover {
     background: $primary-color !important;
@@ -61,29 +61,43 @@ a {
   }
 }
 
+.loginButtonColor{
+  border-color: #ffffff !important;
+    color: #ffffff !important;
+
+	 &:hover {
+    background: #ffffff !important;
+    color: #bc1c17 !important;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px #ffffff !important;
+  }
+}
+
 .header {
   & .avatar {
-    background-color: $primary-color !important;
+    background-color: #520503 !important;
     color: white !important;
   }
 
   & a:hover:not(.btn) {
-    color: $primary-color !important;
+    color: #FFEB3B !important;
   }
 
   & .header-nav {
-    border-color: $primary-color !important;
+    border-color: #FFEB3B !important;
   }
 
   & .header-nav.active {
-    color: $primary-color !important;
+    color: #feea3b !important;
   }
 }
 
 .dropdown-item {
   color: #6e7687 !important;
   &:hover {
-    color: $primary-color !important;
+    color: #8e201e !important;
     background-color: $primary-color-lighten !important;
     &.sort-disabled {
       background: #e6e6e6 !important;
@@ -92,7 +106,7 @@ a {
     }
   }
   &:active, &.active {
-    color: $primary-color !important;
+    color: #8e201e !important;
     background-color: $primary-color-lighten !important;
   }
 }
@@ -121,7 +135,12 @@ input:focus, select:focus {
 }
 
 .bg-primary {
-  background-color: $primary-color !important;
+  background-color: #bc2e2b !important;
+  color: white !important;
+}
+
+.bg-primary1 {
+  background-color: #bc2e2b !important;
   color: white !important;
 }
 
@@ -199,4 +218,7 @@ input:focus, select:focus {
   &.current {
     box-shadow: 0 0 10px $primary-color-lighten;
   }
+}
+.setHome{
+	color: #bc2e2b !important;
 }

@@ -75,6 +75,7 @@ a {
 
 .header {
   height: $header-height;
+  background-color: #8e1410;
 }
 
 .wrapper {
@@ -88,8 +89,18 @@ a {
   width: 100%;
 }
 
+.cardCsshed{
+	background-color: #c4c7cc !important;
+}
+.cardCssboy{
+	background-color: #d8d8d8 !important;
+}
+
 .background {
   background-color: $background-color;
+}
+.homeLayout{
+	background-color: #75c2d438 !important;
 }
 
 .error-section {
@@ -149,8 +160,27 @@ input:focus {
   color: $primary;
 }
 
+.btnSighn {
+  width:100% !important;
+  background-color: #bf5a58 !important;
+    border-color: #b94f4c !important;
+    color: white !important;
+
+  &:hover {
+    background-color: #9e3d3b !important;
+    border-color: #9a3330 !important;
+    color: white !important;
+  }
+
+  &:focus {
+   background-color: #9e3d3b !important;
+    border-color: #9a3330 !important;
+    color: white !important;
+  }
+}
+
 .header .header-nav {
-  color: $text-muted !important;
+  color: #ffffff !important;
 
   &:hover {
     padding-bottom: 21px;
@@ -158,7 +188,7 @@ input:focus {
   }
 
   &.active {
-    color: $primary !important;
+    color: #f1c40f !important;
     padding-bottom: 21px;
     border-bottom: 1px solid $primary;
   }
@@ -179,3 +209,7 @@ table {
 #delete-confirm:disabled {
   cursor: not-allowed;
 }
+.setName{
+	color: #ffffff !important;
+}
+
